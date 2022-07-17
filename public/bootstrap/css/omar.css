@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(248, 251, 253);
+}
+
+.container-tittle {
+    padding: 20px;
+    text-align: center;
+    text-shadow: 0 0 3px rgb(153, 222, 114);
+}
+
+.container-card {
+    padding-bottom: 35px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.container-form {
+    padding: 20px;
+    font-weight: 500;
+}
+
+.container-map {
+    padding-bottom: 40px;
+}
+
+.margin-breadcrumb {
+    padding-left: 10px;
+}
