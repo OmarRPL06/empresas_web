@@ -1,5 +1,23 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
 body {
+    margin: 0;
+    margin-bottom: 40px;
     background-color: rgb(248, 251, 253);
+}
+
+footer {
+    background-color: rgb(21, 25, 29) !important;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 15px;
 }
 
 .container-tittle {
@@ -8,10 +26,32 @@ body {
     text-shadow: 0 0 3px rgb(153, 222, 114);
 }
 
+.inline {
+    display: inline;
+}
+
+.right {
+    float: right;
+}
+
+.p-table {
+    font-style: italic;
+}
+
 .container-card {
     padding-bottom: 35px;
     padding-left: 70px;
     padding-right: 70px;
+}
+
+.container-card-map {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+.table-top {
+    margin-top: 10px;
 }
 
 .container-form {
@@ -26,3 +66,38 @@ body {
 .margin-breadcrumb {
     padding-left: 10px;
 }
+
+.input-search {
+    height: 30px;
+    width: 150px;
+    margin: auto !important;
+}
+
+.btn-search {
+    height: 32px;
+    margin: auto !important;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.icon-gps:hover {
+    filter: hue-rotate(120deg);
+}
+
+.label-title {
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.form-placeholder {
+    font-size: 15px;
+}
+
+#map {
+    width: 100%;
+    height: 350px;
+    margin: auto;
+}
+
