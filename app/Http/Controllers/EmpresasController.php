@@ -56,7 +56,7 @@ class EmpresasController extends Controller
         $direccion = $request->input('direccion');
 
         $find = urlencode(trim($direccion));
-        $google_maps_url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' . $find . '&key=YOUR_APIKEY';
+        $google_maps_url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' . $find . '&key=AIzaSyC1013AP-y0F2d8zZtwDRbsFVVr7aMbblU';
         $google_maps_json = file_get_contents($google_maps_url);
         $google_maps_array = json_decode($google_maps_json, true);
         $latitude = $google_maps_array['results'][0]['geometry']['location']['lat'];

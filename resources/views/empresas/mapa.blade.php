@@ -21,7 +21,7 @@
         </div>
     </div>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_APIKEY&callback=MostrarMapa">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1013AP-y0F2d8zZtwDRbsFVVr7aMbblU&callback=MostrarMapa">
     </script>
 
     @include('includes.footer')
